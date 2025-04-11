@@ -1,33 +1,49 @@
 body{
-background-image:url(./undraw_birthday-cake_8czn.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-color: rgba(137, 43, 226, 0.233);
+    background-color: #27272e;
 }
-a{
-    text-decoration: none;
-}
-
-input{
-    border-radius: 20px;
-    padding: 20px;
-}    
-
-button{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    border-radius: 20px;
-}
-
 .container{
-    text-align: center;
-    background-color: rgba(37, 2, 165, 0.514);
-    padding: 80px;
-    border-radius: 10px;
-    width: 500px;
-    margin: 150px auto;
-    justify-content: center;
     display: flex;
-    align-items: center;
+    /* o gap é a distância entre as linhas e as colunas */
+    gap: 10px 10px;
+    
+}
+
+.item{
+    background-color:#be94e7;
+}
+
+.item_1{
+    justify-content: left;
+    width: 500px;
+    height: 630px;
+}
+.item_2{
+
+    width: 500px;
+    height: 630px;
+}
+.item_3{
+    justify-content: right;
+    width: 330px;
+    height: 630px;
+}
+
+.item_4{ 
+    background-color: #701a759c; 
+    justify-content: flex-start;
+    width: 450px;
+    height: 100px;
+    margin: 20px;
+    
+}
+
+.item_5{
+     margin: 20px;
+    background-color:  #701a75a8; 
+    width: 450px;
+    height: 400px;
+    
+
+    
 
 }
