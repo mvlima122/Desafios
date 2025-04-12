@@ -1,0 +1,49 @@
+body{
+    background-color: #27272e;
+}
+.container{
+    display: flex;
+    /* o gap é a distância entre as linhas e as colunas */
+    gap: 10px 10px;
+    
+}
+
+.item{
+    background-color:#be94e7;
+}
+
+.item_1{
+    justify-content: left;
+    width: 500px;
+    height: 630px;
+}
+.item_2{
+
+    width: 500px;
+    height: 630px;
+}
+.item_3{
+    justify-content: right;
+    width: 330px;
+    height: 630px;
+}
+
+.item_4{ 
+    background-color: #701a759c; 
+    justify-content: flex-start;
+    width: 450px;
+    height: 100px;
+    margin: 20px;
+    
+}
+
+.item_5{
+     margin: 20px;
+    background-color:  #701a75a8; 
+    width: 450px;
+    height: 400px;
+    
+
+    
+
+}
