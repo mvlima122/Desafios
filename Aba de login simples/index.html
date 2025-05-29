@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Underdog&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Formulário de login</title>
+</head>
+<body>
+  <main>
+    
+      <form action="">
+
+          <h1>Faça o seu login</h1>
+
+          <div class="campo">
+            <label for="email">Seu e-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
+          </div>
+
+          <div class="campo">
+            <label for="password">Sua senha</label>
+           <input type="password" id="password" placeholder="Digite sua senha" name="senha" required>
+          </div>
+
+          <div>
+           <!-- Importante colocar um value, para poder marcar e desmarcar a página. -->
+           <input type="checkbox" id="lembrar_senha" name="lembrar_senha" value="senha">
+           <label for="lembrar_senha">Lembrar-me</label>
+          </div>
+         
+      
+          <button class="botão" type="submit">Entrar</button>
+
+          <p>
+            Esqueceu a senha?
+            <a href="#">Clique aqui!</a>
+          </p>
+        
+      </form>
+  </main>
+  
+</body>
+</html>
